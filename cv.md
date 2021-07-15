@@ -18,7 +18,7 @@
 ### used local servers Denwer and MAMP;
 ### used git and github for version control.
 
-## COde example:
+## Code example:
 ```JavaScript
 	const li = document.querySelectorAll("li");
 
