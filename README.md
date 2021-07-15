@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Hruzi.github.io/rsschool-cv/cv
