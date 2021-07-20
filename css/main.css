@@ -1,18 +1,21 @@
-.body{
+.body {
   width: 65%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
   margin-bottom: 2%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: aliceblue;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
-
-.myPhoto{
+.components {
+  display: flex;
+  flex-direction: row;
+}
+.myPhoto {
   width: 72%;
   margin-left: 14%;
   margin-right: 14%;
@@ -20,26 +23,25 @@
   margin-bottom: 5px;
   border-radius: 100%;
 }
-.left-side{
+.left-side {
   width: 40%;
 }
-.right-side{
+.right-side {
   width: 60%;
   padding-left: 8%;
   padding-right: auto;
   padding-top: 9%;
-
 }
-.description{
+.description {
   width: 100%;
   background-color: #203572;
   color: white;
   padding-bottom: 0;
 }
-.name{
+.name {
   text-align: center;
 }
-h1{
+h1 {
   font-size: 48px;
   font-weight: bold;
   color: #3fc7df;
@@ -47,13 +49,12 @@ h1{
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.front-end{
+.front-end {
   font-size: 32px;
   color: #ffffff;
-  
 }
 
-.part-left-side{
+.part-left-side {
   margin-top: 60px;
 
   padding-left: 30px;
@@ -61,25 +62,25 @@ h1{
   text-align: justify;
   font-size: 20px;
 }
-.title-left-side{
+.title-left-side {
   color: #3fc7df;
   font-weight: bold;
   font-size: 30px;
   text-align: left;
 }
-p{
+p {
   margin-top: 8px;
   margin-bottom: 30px;
 }
-.information{
+.information {
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
-.info{
+.info {
   margin-top: 10px;
 }
-.title-right{
+.title-right {
   font-size: 20px;
   background-color: #203572;
   color: #3fc7df;
@@ -87,28 +88,61 @@ p{
   padding-top: 5px;
   padding-bottom: 5px;
 }
-h2{
+h2 {
   margin: 0;
 }
-.info-right{
+.info-right {
   font-size: 20px;
   color: #203572;
-  
 }
-h3{
+h3 {
   font-size: 22px;
   color: #3fc7df;
   margin: 0;
   margin-top: 10px;
   margin-bottom: 5px;
 }
-h6{
+h6 {
   font-size: 16px;
   color: #3fc7df;
   margin: 0;
-   margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-.part-right{
+.part-right {
   width: 85%;
   margin-bottom: 80px;
+}
+.code-link {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #203572;
+}
+a {
+  text-decoration: none;
+  border-bottom: 2px dashed DarkOrchid;
+  padding-bottom: 3px;
+}
+footer {
+  background-color: #1b2b52;
+  color: #ffffff;
+  font-size: 28px;
+}
+.list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-li {
+  margin-left: 20px;
+  list-style-type: none;
+  width: 10%;
+}
+.footer-link {
+  text-decoration: none;
+  border-bottom: 0;
+  color: #ffffff;
+}
+.footer-img {
+  width: 100%;
+  padding-left: 20px;
 }
