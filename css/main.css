@@ -24,6 +24,7 @@
   border-radius: 100%;
 }
 .left-side {
+  background-color: #203572;
   width: 40%;
 }
 .right-side {
@@ -33,6 +34,7 @@
   padding-top: 9%;
 }
 .description {
+  margin-top: auto;
   width: 100%;
   background-color: #203572;
   color: white;
@@ -52,6 +54,10 @@ h1 {
 .front-end {
   font-size: 32px;
   color: #ffffff;
+}
+h5 {
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .part-left-side {
